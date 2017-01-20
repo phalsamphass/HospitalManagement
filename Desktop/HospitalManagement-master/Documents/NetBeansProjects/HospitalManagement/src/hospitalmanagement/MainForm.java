@@ -1,7 +1,6 @@
 
 package hospitalmanagement;
 
-
 public class MainForm extends javax.swing.JFrame {
 
    
@@ -282,6 +281,7 @@ public class MainForm extends javax.swing.JFrame {
       emp.moveToFront();
       emp.show();
       
+      
     }//GEN-LAST:event_jButton1MouseClicked
 
     private void JmChangePwdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_JmChangePwdActionPerformed
@@ -303,7 +303,7 @@ public class MainForm extends javax.swing.JFrame {
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
+                if ("".equals(info.getName())) {
                     javax.swing.UIManager.setLookAndFeel(info.getClassName());
                     break;
                 }
